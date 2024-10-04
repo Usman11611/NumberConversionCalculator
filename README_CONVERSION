@@ -1,0 +1,58 @@
+Multi-Format Number Converter                                               Date: 05/20/2024
+
+Description:
+This repository contains the source code for a Multi-Format Number Converter developed by Usman Haider. The application is built using Python's Tkinter library and provides a user-friendly interface to convert numbers between different formats: Decimal, Binary, Octal, and Hexadecimal. The program also features a light and dark theme toggle for enhanced user experience, and a modern blue UI with a customized title font for an aesthetically pleasing interface. The steps of each conversion process are displayed in a read-only text box, allowing users to follow the conversion steps without the ability to edit them.
+
+Features:
+Multi-Format Conversion: Convert numbers between Decimal, Binary, Octal, and Hexadecimal formats.
+User-Friendly Interface: A clear and intuitive graphical interface for easy number conversion, with a modern blue background and custom font for the title.
+Theme Toggle: Switch between light and dark themes to suit user preferences.
+Read-Only Conversion Steps: Conversion steps are displayed in a read-only box, preventing user edits while allowing easy tracking of the conversion process.
+Error Handling: Displays user-friendly error messages if the input is invalid or not in the correct format.
+Clear and Exit Options: Easily clear all inputs/outputs or exit the application with a single click.
+
+Installation:
+Clone the Repository:
+bash
+Copy code
+git clone https://github.com/Usman11611/multi-format-number-converter
+Navigate to the Project Directory:
+bash
+Copy code
+cd multi-format-number-converter
+Set Up Python Environment:
+Ensure Python is installed on your local machine.
+Install any required dependencies (if applicable).
+
+Setup:
+Install Required Packages:
+The application relies on standard Python libraries, so no additional packages are typically required. Tkinter is included with most Python installations.
+Run the Application:
+Start the converter by running the main script:
+bash
+Copy code
+python number_converter.py
+
+Usage:
+Converting a Number:
+Enter a number in the input field.
+Select the format of the input number (Decimal, Binary, Octal, Hexadecimal).
+Click the "Convert" button to see the equivalent values in all formats and the detailed conversion steps in the read-only box.
+Theme Toggle:
+Click the "Dark Mode" button to switch between light and dark themes.
+Clearing Inputs/Outputs:
+Click the "Clear" button to reset all input and output fields.
+Exiting the Application:
+Click the "Exit" button to close the application.
+Example:
+If you input E7 as a Hexadecimal number, the converter will display:
+
+Binary: 11100111 (Binary)
+Decimal: 231 (Decimal)
+Hexadecimal: E7 (Hexadecimal)
+Octal: 347 (Octal)
+
+
+Creator:
+Usman Haider - Developer and Designer
+
